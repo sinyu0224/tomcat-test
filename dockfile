@@ -1,7 +1,6 @@
-FROM java
+FROM centos:7
 MAINTAINER jimmy
-RUN apt-get update
-RUN apt-get install -y wget
+RUN yum install -y wget
 
 RUN cd /
 
